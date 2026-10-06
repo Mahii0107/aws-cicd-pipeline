@@ -1,10 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>AWS CI/CD Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS CI/CD Pipeline</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #232f3e;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .success {
+            color: #198754;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #ff9900;
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>AWS CI/CD Pipeline</h1>
-    <p>Successfully deployed using AWS CodePipeline.</p>
+
+    <div class="container">
+
+        <h1>AWS CI/CD Pipeline</h1>
+
+        <p class="success">
+            ✓ Deployment Successful!
+        </p>
+
+        <p>
+            This website has been deployed using
+            <strong>AWS CodePipeline</strong> and
+            <strong>Amazon S3</strong>.
+        </p>
+
+        <div class="badge">
+            CI/CD Practical
+        </div>
+
+    </div>
+
 </body>
 </html>
